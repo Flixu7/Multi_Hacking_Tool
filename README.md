@@ -20,4 +20,4 @@ cd Hack-multi-tool
 pip install -r requirements.txt
 ```
 
-![img](image.png)
+![img](image.webp)
