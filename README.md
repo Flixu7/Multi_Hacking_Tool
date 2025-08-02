@@ -18,3 +18,6 @@ This project includes modules for OSINT, token grabbing, Discord server manageme
 git clone https://github.com/Flixu7/Hack-multi-tool.git
 cd Hack-multi-tool
 pip install -r requirements.txt
+```
+
+![img](image.png)
